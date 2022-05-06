@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Mono','Inconsolata', monospace; ;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Inconsolata';
+    margin: 10px 0 30px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.main-section {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    font-family: 'Space Mono';
+    font-size: 48px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #333333;
+    font-family: 'Space Mono';
+    font-size: 18px;
+    
+}
+
+.box {
+    background-color: #333333;
+    width: 40%;
+    font-family: 'Space Mono';
+    color: white;
+    padding: 20px 10px;
+    font-size: 14px;
+    text-align: center;
+    margin: 50px 0px 100px;
+    font-weight: 700;
+}
+
+
+span {
+    color: #333333;
+    margin: 120px 20px;
+}
+
+
+@media screen  and (min-width:850px){
+    .main-section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-section {
+        width: 40%;
+    }
+    img {
+        width: 380px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    .text-section{
+        padding-top: 150px;
+        margin-left: 50px;
+        width: 60%;
+    }
+
+    p{
+        padding-right: 150px;
+        font-size: 24px;
+    }
+
+    
+
+    
+}
