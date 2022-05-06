@@ -50,20 +50,21 @@ p {
 
 .box {
     background-color: #333333;
-    width: 40%;
+    width: 50%;
     font-family: 'Space Mono';
     color: white;
-    padding: 20px 10px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: 13px;
     text-align: center;
     margin: 50px 0px 100px;
     font-weight: 700;
 }
 
 
-span {
+h4 {
     color: #333333;
-    margin: 120px 20px;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -96,7 +97,38 @@ span {
         font-size: 24px;
     }
 
-    
+    .box {
+        width: 35%;
+        padding: 20px 10px;
+        font-size: 16px;
+    }
 
     
+
+}
+
+@media screen  and (min-width:1000px){
+
+    .main-section {
+        width: 95%;
+        justify-content: space-around;
+    }
+
+    img{
+        padding-right: 40px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        padding-right: 70px;
+    }
+
+    .box {
+        font-size: 14px;
+        width: 40%;
+    }
+
 }
