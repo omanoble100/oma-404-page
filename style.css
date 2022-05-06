@@ -50,7 +50,7 @@ p {
 
 .box {
     background-color: #333333;
-    width: 50%;
+    width: 60%;
     font-family: 'Space Mono';
     color: white;
     padding: 15px;
@@ -68,7 +68,7 @@ h4 {
 }
 
 
-@media screen  and (min-width:850px){
+@media screen  and (min-width:750px){
     .main-section {
         width: 100%;
         display: flex;
